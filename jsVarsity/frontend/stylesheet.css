@@ -1,0 +1,135 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ===============roots====================== */
+:root {
+  --marigin-left: 90px;
+}
+
+.main-con {
+  background-color: white;
+  padding-left: var(--marigin-left);
+}
+
+.heading-main-section {
+  background-image: url('./background-images/—Pngtree—graduation\ season\ minimalist\ background\ banner_10455533.png');
+  height: 98vh;
+  width: 100%;
+  padding-left: var(--marigin-left);
+}
+
+.main-heading {
+  margin-top: 50px;
+  font-family: cursive;
+  font-weight: 100px;
+  font-style: oblique;
+  font-size: 45px;
+}
+
+.main-para {
+  font-family: cursive;
+  font-weight: 100px;
+  font-style: oblique;
+  font-size: 25px;
+}
+.main-button {
+  font-family: cursive;
+  font-weight: 100px;
+  font-style: oblique;
+  font-size: 18px;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(125, 125, 238);
+  margin-bottom: 20px;
+  padding: 5px;
+  color: white;
+  margin-top: 20px;
+  transform: rotate(180);
+}
+
+.main-button:hover {
+  color: red;
+  background-color: white;
+  transition: ease-in 0.7s;
+}
+
+/* card */
+
+.varsity-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(54, 54, 54, 0.219);
+  box-shadow: 1px 1.5px rgba(107, 107, 107, 0.116);
+  width: 240px;
+  height: 240px;
+}
+.card-button-varsity {
+  background-color: rgb(125, 125, 238);
+  margin-bottom: 20px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  border-radius: 1rem;
+  border: none;
+}
+.card-button-varsity:hover {
+  background-color: rgb(88, 88, 243);
+}
+
+.category-name {
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: gray;
+  padding: 0%;
+}
+
+.varsity-card:hover .overlay {
+  opacity: 1;
+}
+
+.card-body-varsity {
+  padding: 0%;
+  opacity: 1;
+  color: black;
+  font-size: 13px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.varsity-link {
+  height: 248px;
+}
+
+.resize-class {
+  margin-top: 70px;
+}
+
+.size {
+  height: 200px;
+  width: 230px;
+}
+
+.line {
+  height: 1px;
+  width: 80%;
+  background-color: gray;
+  margin-top: 40px;
+  margin-left: 150px;
+}
